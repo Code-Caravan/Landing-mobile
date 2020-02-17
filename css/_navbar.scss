@@ -8,33 +8,15 @@ nav {
     background-color: $red;
 
     img {
-      height: 250px;
-      margin-left: 100px;
+      height: 200px;
       position: absolute;
     }
   }
   .nav__menu {
-    width: 50%;
-    background-color: $green;
-    float: right;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 5%;
-    height: 105px;
-    box-sizing: border-box;
-    ul{
-      width: 100%;
-      margin: auto;
-    }
-    li {
-      @include nav;
-      display: inline-block;
-      margin-left: auto;
-    }
-
+    width: 130px;
+    position: relative;
+    left: 220px;
+    top: 55px;
     a {
       @include nav;
       text-decoration: none;
